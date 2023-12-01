@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1697796729 source:c:\users\xmelou00\desktop\gauss\main.cpp
+	<iostream>
+	<fstream>
+	<iomanip>
+
+1699009987 source:p:\4.a\inp\gauss\main.cpp
+	<iostream>
+	<fstream>
+	<iomanip>
+
