@@ -11,6 +11,7 @@
 	- Pavel Bäumer - hlavní postava, vypravěč, student, hodně pro něj znamenají jeho přátelé, umírá na konci knihy
 	- Katzinský - vůdčí osobnost, "starší bratr skupiny", umírá těsně před koncem knihy
 	- Pavlovi spolužáci - různí lidé, všichni v knize postupně umírají
+	- Kantůrek - bývalý Pavlův třídní učitel - skupinu nabádal ke vstupu do armády
 - děj - příhody skupiny mladých lidí za 1. sv. války
 
 ## Kontext
