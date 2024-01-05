@@ -3,5 +3,7 @@
 - v dílech jsou použity vulgarismy
 - autoři kritizují společnost, ale naříkají, jak ji napravit
 
-### Allen Kinsberg
-> try
+### Allen Ginsberg
+- homosexuál
+- navštívil prahu - byl vyhoštěn z Česka
+> - Howl (kvílení) - básnická sbírka
