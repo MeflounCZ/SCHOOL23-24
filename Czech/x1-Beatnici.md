@@ -17,7 +17,7 @@
 > - **On the road (na cestě)**
 
 ### William S. Burroughs
-> - **Feťák**a
+> - **Feťák**
 > - Teplouš
 > - Nahý oběd
 
