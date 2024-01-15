@@ -15,3 +15,8 @@
 - potkal se s Nealem Cassadym - předloha pro postavu Deana Moriartyho z "On the road"
 
 > - On the road (na cestě)
+
+### William S. Burroughs
+> - Feťák
+> - Teplouš
+> - Nahý oběd
