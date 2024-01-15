@@ -20,3 +20,9 @@
 > - Feťák
 > - Teplouš
 > - Nahý oběd
+
+### Ken Kesey
+- bývá řazen do postmodernismu - literatura pro všechny (i po vynechání fylozofických částí dávají knihy smysl)
+- Při studiu se stal dobrovolníkem při zkoumání účinků halucinogenů
+> - Vyhoďme ho z kola ven - román
+    > - zfilmováno jako přelet nad kukaččím hnízdem
