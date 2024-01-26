@@ -4,6 +4,7 @@
 
 using namespace std;
 
+// Load matrix
 void loadMatrix(char *fileName,
                 double matrix[100][101],
                 int *amount)
@@ -22,6 +23,7 @@ void loadMatrix(char *fileName,
     *amount = n;
 }
 
+// Print Matrix
 void printMatrix(double matrix[100][101],
                  int amount)
 {
@@ -34,6 +36,7 @@ void printMatrix(double matrix[100][101],
     cout << endl;
 }
 
+// Multiply a row of a matrix by a constant
 void multiplyRow(double matrix[100][101],
               int amount,
               int row,
@@ -44,6 +47,7 @@ void multiplyRow(double matrix[100][101],
     }
 }
 
+// Add a row (row2) of a matrix to second row (row1) - changes row 2
 void addRows(double matrix[100][101],
          int amount,
          int row1,
@@ -54,6 +58,7 @@ void addRows(double matrix[100][101],
     }
 }
 
+// Swap two rows of a matrix
 void swapRows(double matrix[100][101],
          int amount,
          int row1,
@@ -67,28 +72,45 @@ void swapRows(double matrix[100][101],
     }
 }
 
+// Calculate greatest common denominator of two numbers
+int GCD (int num1, int num2){
+    while (num1 != num2){
+        if (num1 > num2) num1 = num1 - num2;
+        else num2 = num2 - num1;
+    }
+    return num1;
+}
+
+// Calculate a matrix using Gauss Elimination
 void GElimination(double matrix[100][101], int amount){
-    for (int i = 1; i < amount; i++){
-        for (int j = i; j < amount; j++){
+    for (int i = 0; i < amount-1; i++){
+        if (matrix[i][i] < 0) multiplyRow(matrix, amount, i, -1);
+        for (int j = i+1; j < amount; j++){
+            if (matrix[j][i] < 0) multiplyRow(matrix, amount, j, -1);
+            
+            int gcd = GCD(matrix[i][i], matrix[j][i]);
+            int num = matrix[i][i];
 
-            multiplyRow(matrix, amount, j, -(matrix[i-1][i-1] / matrix[j][i-1]));
+            multiplyRow(matrix, amount, i, matrix[j][i]/gcd);
+            multiplyRow(matrix, amount, j, -(num/gcd));
 
-            addRows(matrix, amount, j, i-1);
+            addRows(matrix, amount, j, i);
     }}
-    for (int i = amount-1; i > 0; i--){
-        for (int j = i; j > 0; j--){
-            printMatrix(matrix, amount);
-            multiplyRow(matrix, amount, i, 1/matrix[i][i]);
-            printMatrix(matrix, amount);
+    for (int i = amount-1; i >= 0; i--){
+        multiplyRow(matrix, amount, i, 1/matrix[i][i]);
+        for (int j = i-1; j >= 0; j--){
+            if (matrix[j][i] != 0){
+                if (matrix[j][i] < 0) multiplyRow(matrix, amount, j, -1);
 
-            multiplyRow(matrix, amount, j-1, -(matrix[i][i] / matrix[j-1][i]));
+                int gcd = GCD(matrix[i][i], matrix[j][i]);
+                int num = matrix[i][i];
 
-            printMatrix(matrix, amount);
+                multiplyRow(matrix, amount, i, matrix[j][i]/gcd);
+                multiplyRow(matrix, amount, j, -(num/gcd));
 
-            addRows(matrix, amount, j-1, i);
-
-            printMatrix(matrix, amount);
-    }}
+                addRows(matrix, amount, j, i);
+                multiplyRow(matrix, amount, i, 1/matrix[i][i]);
+    }}}
 }
 
 int main()
@@ -103,20 +125,4 @@ int main()
     GElimination(matrix, amount);
 
     printMatrix(matrix, amount);
-
-/*
-    loadMatrix("matice.txt", matrix, &amount);
-    printMatrix(matrix, amount);
-
-    multiplyRow(matrix, amount, 0, 7);
-    printMatrix(matrix, amount);
-
-    addRows(matrix, amount, 0, 1);
-    printMatrix(matrix, amount);
-
-    swapRows(matrix, amount, 0, 2);
-    printMatrix(matrix, amount);
-
-    return 0;
-    */
 }
