@@ -29,6 +29,7 @@
 > 	- **Falešný autostop**
 >	- postavy si myslí, že mají věci pod kontrolou, ale nemají
 > - **Žert** (román)
+
 Normalizace
 - Kundera nepohodlný autor
 - emigroval do Francie
