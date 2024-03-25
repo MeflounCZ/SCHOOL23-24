@@ -24,5 +24,7 @@
 - jako spisovatel začínal básněmi
 - zpočátku poezie vítající socialismus
 - v próze už svět vnímá kritičtěji - dává to najevo - stává se nepohodlným
-> - Směšné lásky
+> - **Směšné lásky** (3 sbírky povídek)
 > 	- Falešný autostop
+>	- postavy si myslí, že mají věci pod kontrolou, ale nemají
+> - **Žert** (román)
