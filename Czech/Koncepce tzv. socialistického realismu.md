@@ -25,3 +25,4 @@
 - zpočátku poezie vítající socialismus
 - v próze už svět vnímá kritičtěji - dává to najevo - stává se nepohodlným
 > - Směšné lásky
+> 	- Falešný autostop
