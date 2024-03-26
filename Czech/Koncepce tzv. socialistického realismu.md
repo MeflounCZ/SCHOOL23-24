@@ -36,3 +36,17 @@ Normalizace
 - na Česko zanevřel
 - svá další díla psal francouzsky
 > - **Nesnesitelná lehkost bytí**
+
+### Ludvík Vaculík
+- Ze začátku podporoval socialismus - později zečal být čím dál více kritický
+- narodil se na Valašsku => tvrdohlavý
+- autor dokumentu "2000 slov"
+- vymezil se proti cenzuře - kultura by neměla sloužit režimu
+- za normalizace nemohl nic vydávat
+- autor fejetonů
+> - **Sekyra** - román
+>	- převod venkova do družstev
+>	- o lákání ke komunistické ideologii
+>	- psáno z pozice redaktora, který jde navštívit svého bratra
+>		- ve vzpomínkách
+>	- důležité postavy nepojmenované
